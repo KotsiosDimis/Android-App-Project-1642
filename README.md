@@ -1,33 +1,37 @@
 Android Bookstore Application
-This project involves the creation of a mobile application using Android Studio, focusing on bookstore functionalities. The application will include user interface development, local database integration, and remote database connectivity.
 
-Features
-Local Database
-Utilizes Room API for managing the local database.
-The database consists of a simple schema with three tables, managing information related to book titles available in each bookstore branch.
-Implements functionalities for data manipulation (insertion, modification, deletion) through a user-friendly interface using Room API.
-Remote Database
-Supports a remote Firestore database.
-Firestore stores sales records for each branch targeting specific customers.
-Implements functionalities for data manipulation (insertion, modification, deletion) through a user-friendly interface.
-User Interface
-Incorporates a menu, preferably a Drawer menu, for better organization of all application functionalities.
-Implements at least three queries (totaling at least six queries) of different structures, using different operators for each database, through a user-friendly interface.
-Supports automatic orientation change (portrait/landscape) with content adaptation for each orientation.
-Utilizes notifications for appropriate user updates.
-Note
-Programming language: Java or Kotlin.
-UI implementation can be done programmatically or using Android Studio UI editor.
-Feel free to contribute and customize the UI as per your preferences and requirements.
+This project is an Android Studio application designed to provide a comprehensive bookstore management experience. It incorporates functionalities for managing local book inventories, tracking sales data, and delivering an intuitive user interface.
 
-Technologies Used
-Android Studio
-Java/Kotlin
-Room API
-Firestore
-Contributors
-[Your Name]
-[Contributor 1]
-[Contributor 2]
-License
-This project is licensed under the [License Name] License - see the LICENSE.md file for details.
+Features:
+
+Local Database Management:
+Utilizes the Room API for efficient local data storage.
+Maintains a concise database schema with three tables:
+Book Titles
+Branch Information
+(Optional) Additional tables to suit your specific needs (e.g., Categories, Authors)
+Offers user-friendly interfaces for data manipulation (CRUD operations: Create, Read, Update, Delete) using the Room API.
+Remote Database Integration:
+Leverages a Firestore database to seamlessly store and manage sales records across branches and for individual customers.
+Provides user-friendly interfaces for sales data manipulation (CRUD operations) through the Firestore API.
+User-Centric Interface:
+Employs a well-organized Drawer menu for streamlined navigation within the application.
+Implements at least three queries (six total) with diverse structures and operators catered to both local and remote databases. These queries enable efficient data retrieval and manipulation based on user requirements.
+Adapts automatically to portrait and landscape orientations, ensuring optimal content display on all devices.
+Utilizes timely notifications to keep users informed of essential updates.
+Technical Stack:
+
+Development Platform: Android Studio
+Programming Language: Kotlin 
+Local Database: Room API
+Remote Database: Firestore
+Contribution and Customization:
+
+We welcome contributions to this project! Feel free to tailor the UI to your specific tastes and requirements, leveraging either programmatic UI creation or Android Studio's UI editor.
+License:
+
+This project is licensed under the [License Name] License. For full details, please refer to the LICENSE.md file.
+
+Contributor:
+
+KotsiosDimis
