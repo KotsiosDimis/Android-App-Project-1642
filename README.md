@@ -1,33 +1,33 @@
-Η εργασία αφορά τη δημιουργία εφαρμογής για κινητές συσκευές, η οποία θα δημιουργηθεί
-στο Android Studio. Και θα είναι σχετική με βιβλιοπωλεία. Θα περιλαμβάνει διεπαφή χρήστη,
-σύνδεση με τοπική βάση δεδομένων και σύνδεση με απομακρυσμένη βάση δεδομένων.
-Αναλυτικά:
-• Τοπική Βάση Δεδομένων.
-i. Η διαχείριση της τοπικής βάσης δεδομένων θα γίνει με το Room API. Η βάση
-δεδομένων θα αποτελείται από ένα απλό σχήμα τριών πινάκων και θα
-διαχειρίζεται πληροφορίες σχετικές με τους τίτλους βιβλίων που διαθέτει κάθε
-2
-υποκατάστημα του βιβλιοπωλείου Θα πρέπει να δημιουργήσετε τουλάχιστον
-τρείς πίνακες ορίζοντας κατάλληλα κύρια και ξένα κλειδιά.
-ii. Η εισαγωγή, τροποποίηση και διαγραφή των δεδομένων στη βάση δεδομένων θα
-γίνουν από κατάλληλη διεπαφή χρήστη που θα υλοποιήσετε στο Android με χρήση
-του Room API.
-• Απομακρυσμένη βάση δεδομένων.
-i. Η εφαρμογή θα υποστηρίζει απομακρυσμένη βάση δεδομένων σε FireStore. Στην
-Firestore θα αποθηκεύονται κατάλληλα οι πωλήσεις κάθε υποκαταστήματος σε
-συγκεκριμένους πελάτες.
-ii. Η εισαγωγή, τροποποίηση και διαγραφή των δεδομένων στην FireStore θα γίνουν
-από κατάλληλη διεπαφή χρήστη που θα υλοποιήσετε στο Android.
-• Η διεπαφή χρήστη.
-i. Θα υποστηρίζει μενού για να οργανώσει καλύτερα όλες τις λειτουργίες της –
-επιθυμητό μενού είναι το Drawer menu.
-ii. Θα πρέπει να υλοποιηθούν από τρία ερωτήματα (άρα σύνολο τουλάχιστον έξι
-ερωτήματα) διαφορετικής δομής (χρήση διαφορετικών τελεστών προς κάθε βάση
-δεδομένων μέσα από κατάλληλη διεπαφή χρήστη στο Android.
-iii. Η εφαρμογή θα υποστηρίζει αυτόματη αλλαγή εμφάνισης όταν αλλάζει
-κατεύθυνση η συσκευή (portrait/landscape). Η αλλαγή εμφάνισης θα
-πιστοποιείται με παρουσίαση διαφορετικού περιεχομένου ανά κατεύθυνση.
-iv. Χρήση ειδοποιήσεων (Notifications) για κατάλληλη ενημέρωση του χρήστη.
-Σημείωση: Μπορεί να χρησιμοποιηθεί ως προγραμματιστική γλώσσα η Java ή η Kotlin. Επίσης,
-η υλοποίηση του UI μπορεί να γίνει με όποιο τρόπο θέλετε (π.χ. προγραμματιστικά, android
-studio UI editor).
+Android Bookstore Application
+This project involves the creation of a mobile application using Android Studio, focusing on bookstore functionalities. The application will include user interface development, local database integration, and remote database connectivity.
+
+Features
+Local Database
+Utilizes Room API for managing the local database.
+The database consists of a simple schema with three tables, managing information related to book titles available in each bookstore branch.
+Implements functionalities for data manipulation (insertion, modification, deletion) through a user-friendly interface using Room API.
+Remote Database
+Supports a remote Firestore database.
+Firestore stores sales records for each branch targeting specific customers.
+Implements functionalities for data manipulation (insertion, modification, deletion) through a user-friendly interface.
+User Interface
+Incorporates a menu, preferably a Drawer menu, for better organization of all application functionalities.
+Implements at least three queries (totaling at least six queries) of different structures, using different operators for each database, through a user-friendly interface.
+Supports automatic orientation change (portrait/landscape) with content adaptation for each orientation.
+Utilizes notifications for appropriate user updates.
+Note
+Programming language: Java or Kotlin.
+UI implementation can be done programmatically or using Android Studio UI editor.
+Feel free to contribute and customize the UI as per your preferences and requirements.
+
+Technologies Used
+Android Studio
+Java/Kotlin
+Room API
+Firestore
+Contributors
+[Your Name]
+[Contributor 1]
+[Contributor 2]
+License
+This project is licensed under the [License Name] License - see the LICENSE.md file for details.
